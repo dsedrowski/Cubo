@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>Cubo</Name>
+    <ProjectGuid>e24caa56-3b54-47af-9cb9-f897d4916beb</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>
+    </RootNamespace>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+    <AssemblyName>Cubo</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="admin\config.php" />
+    <Compile Include="admin\index.php" />
+    <Compile Include="admin\pages\changepassword.php" />
+    <Compile Include="admin\pages\blog\create.php" />
+    <Compile Include="admin\pages\blog\delete.php" />
+    <Compile Include="admin\pages\blog\details.php" />
+    <Compile Include="admin\pages\blog\edit.php" />
+    <Compile Include="admin\pages\blog\list.php" />
+    <Compile Include="admin\pages\blog.php" />
+    <Compile Include="admin\pages\login.php" />
+    <Compile Include="admin\pages\logout.php" />
+    <Compile Include="admin\pages\realizacje.php" />
+    <Compile Include="admin\pages\realizacje\addphoto.php" />
+    <Compile Include="admin\pages\realizacje\create.php" />
+    <Compile Include="admin\pages\realizacje\delete.php" />
+    <Compile Include="admin\pages\realizacje\deletephoto.php" />
+    <Compile Include="admin\pages\realizacje\details.php" />
+    <Compile Include="admin\pages\realizacje\edit.php" />
+    <Compile Include="admin\pages\realizacje\list.php" />
+    <Compile Include="admin\pages\oferta.php" />
+    <Compile Include="admin\pages\oferta\addphoto.php" />
+    <Compile Include="admin\pages\oferta\create.php" />
+    <Compile Include="admin\pages\oferta\deletephoto.php" />
+    <Compile Include="admin\pages\oferta\delete.php" />
+    <Compile Include="admin\pages\oferta\details.php" />
+    <Compile Include="admin\pages\oferta\edit.php" />
+    <Compile Include="admin\pages\oferta\list.php" />
+    <Compile Include="admin\pages\slider\delete.php" />
+    <Compile Include="admin\pages\slider\edit.php" />
+    <Compile Include="admin\pages\slider\create.php" />
+    <Compile Include="admin\pages\slider.php" />
+    <Compile Include="admin\pages\home.php" />
+    <Compile Include="admin\pages\slider\list.php" />
+    <Compile Include="admin\scripts\CurrentPage.php" />
+    <Compile Include="admin\scripts\ImageManipulator.php" />
+    <Compile Include="admin\scripts\MySQL.php" />
+    <Compile Include="admin\scripts\Blog.php" />
+    <Compile Include="admin\scripts\Realizacje.php" />
+    <Compile Include="admin\scripts\Oferta.php" />
+    <Compile Include="admin\scripts\Slider.php" />
+    <Compile Include="admin\scripts\User.php" />
+    <Compile Include="admin\settings.php" />
+    <Compile Include="admin\shared\bottom.php" />
+    <Compile Include="admin\shared\top.php" />
+    <Compile Include="index.php" />
+    <Compile Include="pages\blog.php" />
+    <Compile Include="pages\blog_szczegoly.php" />
+    <Compile Include="pages\home.php" />
+    <Compile Include="pages\kontakt.php" />
+    <Compile Include="pages\realizacje_szczegoly.php" />
+    <Compile Include="pages\realizacje.php" />
+    <Compile Include="pages\oferta.php" />
+    <Compile Include="pages\oferta_szczegoly.php" />
+    <Compile Include="pages\onas.php" />
+    <Compile Include="pages\partials\_slider.php" />
+    <Compile Include="scripts\CurrentPage.php" />
+    <Compile Include="shared\bottom.php" />
+    <Compile Include="shared\top.php" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="admin\assets\" />
+    <Folder Include="admin\assets\css\" />
+    <Folder Include="admin\assets\js\" />
+    <Folder Include="admin\assets\fonts\" />
+    <Folder Include="admin\assets\less\" />
+    <Folder Include="admin\assets\less\icons\" />
+    <Folder Include="admin\assets\less\icons\themify-icons\" />
+    <Folder Include="admin\assets\less\icons\themify-icons\fonts\" />
+    <Folder Include="admin\assets\img\" />
+    <Folder Include="admin\pages\blog\" />
+    <Folder Include="admin\pages\realizacje\" />
+    <Folder Include="admin\pages\oferta\" />
+    <Folder Include="admin\pages\slider\" />
+    <Folder Include="admin\shared\" />
+    <Folder Include="admin\scripts\" />
+    <Folder Include="admin\pages\" />
+    <Folder Include="assets\" />
+    <Folder Include="assets\css\" />
+    <Folder Include="assets\fonts\" />
+    <Folder Include="assets\fonts\font-awesome\" />
+    <Folder Include="assets\fonts\font-awesome\css\" />
+    <Folder Include="assets\fonts\font-awesome\fonts\" />
+    <Folder Include="assets\img\main-slider\" />
+    <Folder Include="assets\img\blog\" />
+    <Folder Include="assets\img\realizations-photo\" />
+    <Folder Include="assets\img\realizations-category\" />
+    <Folder Include="assets\img\offer-photo\" />
+    <Folder Include="assets\img\offer-category\" />
+    <Folder Include="assets\js\" />
+    <Folder Include="assets\img\" />
+    <Folder Include="admin\" />
+    <Folder Include="pages\partials\" />
+    <Folder Include="scripts\" />
+    <Folder Include="pages\" />
+    <Folder Include="shared\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include=".htaccess" />
+    <Content Include="admin\.htaccess" />
+    <Content Include="admin\assets\css\bootstrap.min.css" />
+    <Content Include="admin\assets\css\metisMenu.min.css" />
+    <Content Include="admin\assets\css\morris.css" />
+    <Content Include="admin\assets\css\popuo-box.css" />
+    <Content Include="admin\assets\css\spinners.css" />
+    <Content Include="admin\assets\css\style.css" />
+    <Content Include="admin\assets\css\my-styles.css" />
+    <Content Include="admin\assets\css\style_login.css" />
+    <Content Include="admin\assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="admin\assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="admin\assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="admin\assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="admin\assets\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="admin\assets\img\bbl.png" />
+    <Content Include="admin\assets\img\bg3.jpg" />
+    <Content Include="admin\assets\img\favicon.png" />
+    <Content Include="admin\assets\img\fb.png" />
+    <Content Include="admin\assets\img\into.png" />
+    <Content Include="admin\assets\img\key.png" />
+    <Content Include="admin\assets\img\tick.png" />
+    <Content Include="admin\assets\img\twt.png" />
+    <Content Include="admin\assets\img\user.png" />
+    <Content Include="admin\assets\js\bootstrap.min.js" />
+    <Content Include="admin\assets\js\dashboard1.js" />
+    <Content Include="admin\assets\js\jquery.magnific-popup.js" />
+    <Content Include="admin\assets\js\jquery.min.js" />
+    <Content Include="admin\assets\js\jquery.nicescroll.js" />
+    <Content Include="admin\assets\js\metisMenu.min.js" />
+    <Content Include="admin\assets\js\myadmin.js" />
+    <Content Include="admin\assets\js\nicEdit.js" />
+    <Content Include="admin\assets\js\nicEditorIcons.gif" />
+    <Content Include="admin\assets\js\raphael-min.js" />
+    <Content Include="admin\assets\js\scripts.js" />
+    <Content Include="admin\assets\less\icons\themify-icons\fonts\themify.eot" />
+    <Content Include="admin\assets\less\icons\themify-icons\fonts\themify.svg" />
+    <Content Include="admin\assets\less\icons\themify-icons\fonts\themify.ttf" />
+    <Content Include="admin\assets\less\icons\themify-icons\fonts\themify.woff" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\scrolling-nav.css" />
+    <Content Include="assets\css\styles.css" />
+    <Content Include="assets\fonts\font-awesome\css\font-awesome.min.css" />
+    <Content Include="assets\fonts\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\fonts\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\fonts\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\fonts\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\fonts\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="assets\img\logo.png" />
+    <Content Include="assets\img\main-slider\1444998439_05608400.jpg" />
+    <Content Include="assets\img\main-slider\slider2.jpg" />
+    <Content Include="assets\img\main-slider\cropped-slider-3.jpg" />
+    <Content Include="assets\img\olx.png" />
+    <Content Include="assets\img\olx_hover.png" />
+    <Content Include="assets\img\onasheaderimg.png" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\jquery.easing.min.js" />
+    <Content Include="assets\js\jquery.js" />
+    <Content Include="assets\js\jquery.magnific-popup.js" />
+    <Content Include="assets\js\scripts.js" />
+    <Content Include="assets\js\scrolling-nav.js" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,334 @@
+﻿/*#region GENERALS */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #656565;
+    padding-top: 100px;
+}
+
+.color-page {
+    color: #61a73a;
+    font-weight: bold;
+}
+
+.btn-green {
+    background: #61a73a !important;
+    border-color: #61a73a !important;
+    color: white !important;
+}
+
+.desc p {
+    text-align: justify;
+}
+/*#endregion */
+
+/*#region PANELS */
+
+.panel-cubo .heading {
+    width: 50%;
+    border-bottom: 3px solid #61a73a;
+    color: #61a73a;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.panel-cubo .panel-body {
+    text-align: center;
+}
+
+.panel-cubo .panel-body p{
+    text-align: justify;
+}
+
+.first-letter {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*#endregion */
+
+/*#region NAVBAR */
+.navbar {
+    padding: 0;
+    padding: 15px 0;
+    border-top: 3px solid #61a73a;
+    border-bottom: 1px solid #eee;
+}
+
+.nav.navbar-nav{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a {
+    text-align: center;
+}
+
+.nav.navbar-nav a:hover {
+    color: #61a73a !important;
+}
+
+.nav.navbar-nav a.active {
+    color: #61a73a !important;
+}
+
+.navbar .container {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.navbar .olx-logo {
+    height: 36px;
+    width: 36px;
+    display: block;
+    background-image: url('../img/olx_small.png');
+    background-size: contain;
+    background-repeat:no-repeat;
+    margin: 0 auto;
+}
+
+.olx-logo:hover {
+    background-image: url('../img/olx_hover.png');
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu a {
+    width: 100%;
+    display: block;
+    text-align: center;
+    color: #777;
+    padding: 5px 0;
+}
+
+.dropdown-menu a:hover{
+    color:#61a73a;
+    text-decoration: none;
+}
+
+/*#endregion */
+
+/*#region SLIDER */
+header.carousel {
+    height: 60%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.carousel-inner a {
+    color: white !important;
+}
+
+.carousel-inner a:hover {
+    color: #ddd !important;
+    text-decoration: none;
+}
+
+.carousel-caption h2 {
+    background: rgba(0,0,0,0.3);
+}
+
+/*#endregion */
+
+/*#region CONTENT */
+
+#content {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+/*#endregion */
+
+/*#region KONTAKT BOX MAIN PAGE */
+
+.well {
+    text-align: center;
+    background: #61a73a;
+    border-color: #61a73a;
+    color: #fff;
+    font-size: 18px;
+}
+
+/*#endregion */
+
+/*#region FOOTER */
+
+footer {
+    padding-bottom: 25px;
+    background: #333;
+    border-bottom: 5px solid #61a73a;
+    color: #ccc;
+}
+
+footer a {
+    color: #ccc;
+}
+
+footer a:hover, footer a:active, footer a:focus{
+    color: #61a73a;
+    text-decoration: none;
+}
+
+#footer-copyrights {
+    padding-top: 15px;
+}
+
+.olx-logo {
+    height: 50px;
+    display: block;
+    background-image: url('../img/olx.png');
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+
+.olx-logo:hover {
+    background-image: url('../img/olx_hover.png');
+}
+
+/*#endregion */
+
+/*#region Zdjecia */
+
+.img-portfolio {
+    margin: 15px 0;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.img-portfolio:hover .img-delete-btn {
+    opacity: 1;
+    -webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+
+.img-delete-btn {
+    position: absolute;
+    bottom: 0;
+    left: 15px;
+    opacity: 0;
+    -webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+
+.img-portfolio a {
+    color: #61a73a;
+}
+
+.img-portfolio a:hover {
+    color: #458C1F;
+    text-decoration: none;
+}
+
+/*#endregion */
+
+/*#region MODAL */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 99999;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.modal-content, #caption { 
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*#endregion */
+
+/*#region BLOG */
+
+.post-heading {
+    color: #61a73a;
+}
+
+.post-heading a {
+    color: #61a73a;
+}
+
+.post-heading a:hover {
+    color: #458C1F;
+    text-decoration: none;
+}
+
+/*#endregion */

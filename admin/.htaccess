@@ -1,0 +1,29 @@
+﻿# Do not remove this line or mod_rewrite rules and search engine friendly URLs will stop working
+RewriteBase /
+
+Options FollowSymLinks
+RewriteEngine on
+DirectoryIndex index.php
+
+RewriteRule ^index\.html$					admin/index.php?page=home
+RewriteRule ^home$							admin/index.php?page=home
+
+RewriteRule ^logout$						admin/index.php?page=logout
+
+RewriteRule ^changepassword$				admin/index.php?page=changepassword
+
+RewriteRule ^slider$						admin/index.php?page=slider
+RewriteRule ^slider-([^-]+)$				admin/index.php?page=slider&action=$1
+RewriteRule ^slider-([^-]+)-([^-]+)$		admin/index.php?page=slider&action=$1&id=$2
+
+RewriteRule ^oferta$						admin/index.php?page=oferta
+RewriteRule ^oferta-([^-]+)$				admin/index.php?page=oferta&action=$1
+RewriteRule ^oferta-([^-]+)-([^-]+)$		admin/index.php?page=oferta&action=$1&id=$2
+
+RewriteRule ^realizacje$					admin/index.php?page=realizacje
+RewriteRule ^realizacje-([^-]+)$			admin/index.php?page=realizacje&action=$1
+RewriteRule ^realizacje-([^-]+)-([^-]+)$	admin/index.php?page=realizacje&action=$1&id=$2
+
+RewriteRule ^blog$							admin/index.php?page=blog
+RewriteRule ^blog-([^-]+)$					admin/index.php?page=blog&action=$1
+RewriteRule ^blog-([^-]+)-([^-]+)$			admin/index.php?page=blog&action=$1&id=$2
